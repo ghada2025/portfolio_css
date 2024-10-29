@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Portfolio kheniene ghada</title>
+  </head>
+  <body>
+    <nav>
+        <img src="./images/logo.svg" alt="Logo">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#study">Study</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
+        </ul>
+    </nav>
+    
+    <div id="home">
+      <div class="left">
+        <h3>Bonjour, je suis</h3>
+        <h1>KHENIENE GHADA</h1>
+        <h6>Etudiante en développement web</h6>
+        <button>Download CV</button>
+      </div>
+      <div class="right">
+        <img src="./images/blob.svg" alt="hero" />
+      </div>
+    </div>
+    <div id="about">
+      <div class="left">
+        <img src="./images/avatar-1.jpg" alt="hero" />
+      </div>
+      <div class="right">
+        <h3>Qui suis-je ?</h3>
+        <p>
+          Je suis Kheniene Ghada, diplômée en Télécommunications avec une
+          passion pour l'intelligence artificielle et le développement web.
+          Actuellement, je suis étudiante en développement web chez GOMYCODE.
+        </p>
+      </div>
+    </div>
+    <div id="study">
+      <h2>Mon parcours</h2>
+      <h3>En cours de formation chez GOMYCODE</h3>
+      <p>
+        Je suis actuellement en cours de formation chez GOMYCODE, une entreprise
+        de formation en développement web.
+      </p>
+      <h3>Mes Diplomés</h3>
+      <table>
+        <tr>
+          <th>Année</th>
+          <th>Diplôme</th>
+          <th>Institution</th>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>Licence en Télécommunications</td>
+          <td>Université USTHB</td>
+        </tr>
+        <tr>
+          <td>2024</td>
+          <td>Master en Réseaux et Télécommunications</td>
+          <td>Université USTHB</td>
+        </tr>
+      </table>
+    </div>
+    <div id="contact">
+      <h2>Contactez-moi</h2>
+      <form>
+        <div class="input1">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Entrez votre nom"
+            required
+          />
+          <i class='bx bx-user'></i>
+        </div>
+        <div class="input2">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Entrez votre email"
+            required
+          /><i class='bx bx-envelope'></i>
+        </div>
+       
+       <div class="input3">
+        <input
+          type="text"
+          id="subject"
+          name="subject"
+          placeholder="Entrez votre sujet"
+          required
+        />
+        <i class='bx bx-edit'></i>
+       </div> 
+        <button type="submit">Submit</button>
+      </form>
+  </body>
+</html>
